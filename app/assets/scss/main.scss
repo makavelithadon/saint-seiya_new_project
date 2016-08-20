@@ -1,0 +1,19 @@
+@import 'partials/vendors/bourbon/bourbon';
+@import 'partials/vendors/neat/neat';
+@import "partials/config/variables";
+@import "partials/config/mixins";
+@import "partials/config/placeholders";
+@import "partials/base/normalize";
+@import "partials/base/base";
+@import "partials/base/typography";
+@import "partials/layout/header";
+
+html, body {
+    font-family: $gothamBlack;
+    font-size:100%;
+    box-sizing:border-box;
+}
+body {
+    margin:0;padding:0;
+    background:$white;
+}

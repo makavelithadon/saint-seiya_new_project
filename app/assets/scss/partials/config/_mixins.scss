@@ -1,0 +1,11 @@
+@mixin after-border ($height, $color) {
+    &::after {
+        content:"";
+        position:absolute;
+        bottom:0;
+        display:block;
+        width:100%;
+        height:$height + px;
+        background: $color;
+    }
+}

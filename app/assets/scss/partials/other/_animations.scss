@@ -1,0 +1,112 @@
+@keyframes arrow {
+    0% {
+        bottom:5%;
+        transform: translateX(-50%) scale(.8);
+    }
+    50% {
+        bottom:9%;
+        transform: translateX(-50%) scale(1);
+    }
+    100% {
+        bottom:5%;
+        transform: translateX(-50%) scale(.8);
+    }
+}
+
+@keyframes arrow--check {
+    0%   {transform:translateY(0) translateZ(0) translateX(-50%);}
+    50%  {transform:translateY(30px) translateZ(0) translateX(-50%);}
+    100% {transform:translateY(0) translateZ(0) translateX(-50%);}
+}
+
+@keyframes fadeOutCustom {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@keyframes fadeInCustom {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:100;
+    }
+}
+
+@keyframes fadeOutLeftCustom {
+    0% {
+        transform: translateX(-50%);
+        opacity:1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity:0;
+    }
+}
+
+@keyframes fadeOutRightCustom {
+    0% {
+        transform: translateX(-50%);
+        opacity:1;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity:0;
+    }
+}
+
+@keyframes fadeInLeftCustom {
+    0% {
+        transform: translateX(-100%);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(-50%);
+        opacity:1;
+    }
+}
+
+@keyframes fadeInRightCustom {
+    0% {
+        transform: translateX(0%);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(-50%);
+        opacity:1;
+    }
+}
+@keyframes fadeInBottomCustom {
+    0% {
+        top:60%;
+        opacity:0;
+    }
+    100% {
+        top:50%;
+        opacity:1;
+    }
+}
+
+@keyframes fadeOutFlagsCustom {
+    0% {
+        top:50%;
+        opacity:1;
+    }
+    100% {
+        top:60%;
+        opacity:0;
+    }
+}
+
+@keyframes animPerrierLogo {
+    0% {
+        transform: translateX(-50%) scale(.25) rotateY(180deg);
+    }
+    100% {
+        transform: translateX(-50%) scale(1) rotateY(360deg);
+    }
+}

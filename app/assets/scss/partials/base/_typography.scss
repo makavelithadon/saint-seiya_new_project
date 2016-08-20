@@ -1,0 +1,3 @@
+@include font-face("gotham-black", "../fonts/Gotham-Black", bold, $file-formats: eot woff svg ttf);
+@include font-face("montserrat-light", "../fonts/Montserrat-Light", $file-formats: eot woff2 woff svg ttf);
+@include font-face("montserrat-regular", "../fonts/Montserrat-Regular", $file-formats: eot woff2 woff svg ttf);

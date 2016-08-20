@@ -1,0 +1,23 @@
+// COLORS //
+$dark-black:#000;
+$black:rgba($dark-black, .75);
+$light-black:rgba($dark-black, .5);
+$grey:rgba($dark-black, .25);
+$light-grey:rgba($dark-black,.1);
+$white:#fff;
+
+// FONTS //
+
+$gothamBlack:"gotham-black", sans-serif;
+$montserratBold:"montserrat-bold", sans-serif;
+$montserratLight:"montserrat-light", sans-serif;
+
+// CARACTERS //
+
+$characters: (
+    seiya: (#bd0908,#fa0605),
+    shiryu: (#33b3a4, #a5fbe0),
+    hyoga: (#7497e9, #e1ecff),
+    shun: (#ee3e46, #fdc3d5),
+    ikki: (#f85229, #f69c11)
+);
