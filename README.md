@@ -1,1 +1,1 @@
-"# saint-seiya_new_project" 
+# saint-seiya_new_project
