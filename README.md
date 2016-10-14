@@ -1,1 +1,8 @@
-# saint-seiya_new_project
+# Jumble Team App
+## Getting started
+
+* clone the bitbucket repository
+
+```
+$ npm install
+```
