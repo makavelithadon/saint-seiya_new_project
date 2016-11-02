@@ -1,8 +1,9 @@
-# Jumble Team App
+# Saint Seiya New Project
 ## Getting started
 
-* clone the bitbucket repository
+* clone the github repository
 
 ```
 $ npm install
+
 ```
