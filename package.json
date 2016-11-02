@@ -4,7 +4,7 @@
   "description": "saint-seiya_new_project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "snyk test"
   },
   "repository": {
     "type": "git",
@@ -47,6 +47,7 @@
     "uglify-js": "^2.7.4",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "vue": "^2.0.3"
+    "vue": "^2.0.3",
+    "snyk": "^1.19.1"
   }
 }
