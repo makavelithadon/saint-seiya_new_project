@@ -1,7 +1,7 @@
 {
-  "name": "template-gulp-sass-babelify",
+  "name": "saint-seiya_new_project",
   "version": "1.0.0",
-  "description": "template-gulp-sass-babelify",
+  "description": "saint-seiya_new_project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
